@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 style="text-align:center"> Day 3 Interview question's and answer's </h1>
+    <hr>
+    <h3> 1.Write a code to insert an image </h3>
+    <li> insert image using img tag</li>
+    <li> It is self closing tag</li>
+    <li> image has attributes img(image link it may be relative/absulute),alt(alternative name for image),hight,width </li>
+    <li> <b> Syntax - <br>&lt;img src="path" alt="alteranative name" &gt;</b></li>
+    <p> ex-
+        <img src="./dad.jpg" alt="dad image" width="200" height="200">
+    </p>
+    <h3> 2. Create a form contain input fields like name age email and contact </h3>
+    <form action="./index3.html">
+        <label for="name"> Name :  </label>
+        <input type="text" value="" name="name" id="name" placeholder="Fullname">
+        <br><br>
+        <label for="age"> Age : </label>
+        <input type="number" value="" name="age" id="age" placeholder="Age only 2 numbers ">
+        <br><br>
+        <label for="Email"> Email : </label>
+        <input type="email" value="" name="Email" id="email" placeholder="Email with @ ">
+        <br><br>
+        <label for="contact"> Contact :</label>
+        <input type="number" value="" name="contact" id="contact" placeholder="limit 10 only numbers  ">
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+    <h3> 3.Create a table and explain how to acheive colspan? </h3>
+    <table border="1">
+        <tr>
+            <th> Name </th>
+            <th colspan="2"> Contact No:</th>
+        </tr>
+        <tr>
+            <td> Noureentaz </td>
+            <td> 4578945612 </td>
+            <td> 4567889912 </td>
+        </tr>
+        <tr>
+            <td> Riyaz </td>
+            <td> 5748892789 </td>
+            <td> 7894564561 </td>
+        </tr>
+
+    </table>
+    <p> Using colspan attribute we can Acheive our this goal</p>
+    <!-- <table border="1">
+        <tr>
+            <th> Name </th>
+            <td> Riyaz</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2"> Contact No: </th>
+            <td>488888888888</td>
+
+
+        </tr>
+        <tr>
+            <td> 5748892789 </td>
+
+        </tr>
+
+
+    </table> -->
+    <h3> 4.Create one form that contain name input, password input, 3 radio buttons(HTML,CSS,JS), 2 checkboxes(cricket, football, hockey) and one submit button . When you click on that button the value should be shown in the URL </h3>
+    <form action="./index3.html">
+        <label for="name"> Name :  </label>
+        <input type="text" value="" name="name" id="name" placeholder="Fullname">
+        <br><br>
+        <label for="password"> Password : </label>
+        <input type="password" value="" name="password" id="password" placeholder="Password">
+        <br><br>
+        <label for="radiobutton"> Languages : </label>
+        <input type="radio" value="HTML" name="radiobutton" id="html">HTML
+        <input type="radio" value="CSS" name="radiobutton" id="css">CSS
+        <input type="radio" value="JS" name="radiobutton" id="js">JS
+        <br><br>
+        <label for="sports"> Sports :</label>
+        <input type="checkbox" value="cricket" name="sports" id="cricket">cricket
+        <input type="checkbox" value="football" name="sports" id="football">football
+        <input type="checkbox" value="hockey" name="sports" id="hockey">hockey
+        <br><br>
+        <input type="submit" value="submit">
+
+
+    </form>
+
+
+
+
+</body>
+
+</html>
